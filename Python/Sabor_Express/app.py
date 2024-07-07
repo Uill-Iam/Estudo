@@ -13,6 +13,8 @@ restaurantes = [{'nome':'Pizaria ABC','categoria':'Italiana','ativo':False},
 
 
 def exibir_nome_programa():
+    ''' Exibe o nome do programa na tela
+    '''
     print('𝕊𝕒𝕓𝕠𝕣 𝔼𝕩𝕡𝕣𝕖𝕤𝕤')
 
 def exibir_opcoes():
@@ -37,6 +39,7 @@ def voltar_menu():
 
 ## como essa função de exibir subtitulo estava sendo usada em diversas partes do caodigo foi criada uma função
 def exibir_subtitulo(texto):
+     '''Limpa tela  e exibe o titulo com *'''
      os.system('cls')
      linha = '*'  * (len(texto) + 4)
      print(linha)
@@ -44,6 +47,14 @@ def exibir_subtitulo(texto):
      print(linha)
 
 def cadastrar_novo_restaurente():
+    '''Essa função de cadastrar um novo restaurante
+    Inputs:
+    -Nome do restaurante 
+    -Categoria
+
+    Outputs:
+    -Adciona a lista um novo restaurante
+    '''
     exibir_subtitulo('Cadastros de Novos restaurantes\n')
 
     nome_restaurente = input('Digite o nome do restaurante que deseja cadastrar:\n')
@@ -56,6 +67,13 @@ def cadastrar_novo_restaurente():
     voltar_menu()
 
 def listando_restaurantes():
+    '''Essa função de Lista todos restaurantes
+    Inputs:
+
+    Outputs:
+    -Lista de restaurantes cadastrados
+    '''
+
     exibir_subtitulo('Listando Restaurantes:\n')
     
     print(f'{'Nome Restaurante'.ljust(22)} | {'Categoria'.ljust(20)} | {'Estado'}')
@@ -69,6 +87,14 @@ def listando_restaurantes():
     voltar_menu()
 
 def alternar_estado_restaurante():
+     '''Essa função de alterar o estado de um restaurante
+     
+     Inputs:
+     - Nome do restaurantes que deseja alterar o estado
+
+     Output:
+     - Novo estado do restaurante
+     '''
      exibir_subtitulo('Alternando o estado do restaurante:\n')
 
      nome_restaurante = input('Digite o nome do restaurante que deseja alterar o estado:')
@@ -84,6 +110,12 @@ def alternar_estado_restaurante():
      voltar_menu()
 
 def escolher_opcao():
+    '''Essa função de Escolha do menu
+    
+    Inputs:
+    - Opção de escolha em valor(Int)
+
+    '''
 # try -except para não "quebrar o code quando digita algo fora do padrão"
     try:
         ## input 
@@ -122,6 +154,7 @@ def escolher_opcao():
 ## deixando o programa como Main
 
 def main():
+    '''Função Main do programa essa é a função principal que inicia o programa'''
     os.system('cls')
     exibir_nome_programa()
     exibir_opcoes()
