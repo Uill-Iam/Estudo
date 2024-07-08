@@ -1,4 +1,5 @@
 from modelos.avaliacao import Avaliacao
+from modelos.cardapio.item_cardapio import ItemCardapio
 
 # Projeto Orientado a Objeto
 
@@ -25,6 +26,7 @@ class Restaurante:
         self._categoria = categoria.upper()
         self._ativo = False
         self._avaliacao = []
+        self._cardapio = []
         Restaurante.restaurantes.append(self)
 
     def __str__(self):
@@ -47,8 +49,7 @@ class Restaurante:
         - Estado
         """
         for restaurante in cls.restaurantes:
-            print(f'Nome Restaurante: {restaurante._nome.ljust(25)} | Categoria: {str(restaurante._categoria.ljust(25)).ljust(25)} | Avaliação: {str(restaurante.media_avaliacao).ljust(25)} 
-                  | Estado: {restaurante.ativo}')
+            print(f'Nome Restaurante: {restaurante._nome.ljust(25)} | Categoria: {str(restaurante._categoria.ljust(25)).ljust(25)} | Avaliação: {restaurante.media_avaliacao} | Estado: {restaurante.ativo}')
     
     @property
     def ativo(self):
@@ -74,3 +75,24 @@ class Restaurante:
         quantidade_notas = len(self._avaliacao)
         media = round(soma_notas / quantidade_notas, 1)
         return media
+    
+    def adcionar_item_cardapio(self,item):
+        if isinstance(item, ItemCardapio):
+            self._cardapio.append(item)
+
+
+#Enumerate fução para numerar
+# hasattr verifica se tem o tributo
+    @property
+    def exibir_cardapio(self):
+        print(f'Cardapio do Restaurante {self._nome}\n')
+        for i,item in enumerate( self._cardapio,start= 1):
+            if hasattr(item,'_descricao'):
+                messagem_prato = f'{i}. Nome: {item._nome} | Preço: R$ {item._preco} | Descicão: {item._descricao}'
+                print(messagem_prato)
+            else:
+                messagem_bebida = f'{i}. Nome: {item._nome} | Preço: R$ {item._preco} | Tamanho: {item._tamanho}'
+                print(messagem_bebida)
+
+
+
