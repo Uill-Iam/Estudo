@@ -47,7 +47,8 @@ class Restaurante:
         - Estado
         """
         for restaurante in cls.restaurantes:
-            print(f'Nome Restaurante: {restaurante._nome.ljust(25)} | Categoria: {str(restaurante._categoria.ljust(25)).ljust(25)} | Avaliação: {restaurante.media_avaliacao} | Estado: {restaurante.ativo}')
+            print(f'Nome Restaurante: {restaurante._nome.ljust(25)} | Categoria: {str(restaurante._categoria.ljust(25)).ljust(25)} | Avaliação: {str(restaurante.media_avaliacao).ljust(25)} 
+                  | Estado: {restaurante.ativo}')
     
     @property
     def ativo(self):
