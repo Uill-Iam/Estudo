@@ -1,6 +1,7 @@
 from modelos.restaurante import Restaurante
 from modelos.cardapio.bebida import Bebida
 from modelos.cardapio.prato import Prato
+from modelos.cardapio.sobremesa import Sobremesa
 
 
 #instanciando objeto
@@ -18,6 +19,9 @@ prato = Prato('Sushi',11.50,'Prato com peixe')
 prato.aplica_desconto()
 bebida = Bebida('Coca-cola',5.60,'250ML')
 bebida.aplica_desconto()
+
+sobremesa = Sobremesa('Pudim',12.50,'Feito com Leite condenado','Light','Pequeno')
+
 restaurante_Sushi.adcionar_item_cardapio(bebida)
 restaurante_Sushi.adcionar_item_cardapio(prato)
 

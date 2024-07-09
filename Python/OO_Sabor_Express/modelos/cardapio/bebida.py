@@ -6,7 +6,7 @@ class Bebida(ItemCardapio):
         super().__init__(nome,preco)
         self._tamanho = tamanho
     
-    def __str__(self) -> str:
+    def __str__(self):
         return self._nome
     
     def aplica_desconto(self):
