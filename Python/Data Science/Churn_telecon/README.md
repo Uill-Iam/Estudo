@@ -1,15 +1,15 @@
 # Prevendo Churn com Machine Learning 🤖📉
 
 <div align="center">
-  <img src="https://imgur.com/0Z4mFQD.png" alt="Churn Prediction ML"/>
+  <img src="https://i.imgur.com/0Z4mFQD.png" alt="Churn Prediction ML"/>
 </div>
 
 ## Badges
-![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)  
-![Python](https://img.shields.io/badge/Python-3.10-blue)  
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-lightgrey)  
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualização-blue)  
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-lightgrey)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualiza%C3%A7%C3%A3o-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Uill-Iam/Churn_telecon)
 
 ---
@@ -25,7 +25,7 @@
 ---
 
 ## Descrição do Projeto
-Este projeto tem como objetivo realizar uma **análise preditiva de Churn** (cancelamento de serviço) de clientes de uma empresa de telecomunicações. Através da aplicação de algoritmos de Machine Learning, buscamos identificar padrões e prever quais clientes têm maior probabilidade de cancelarem o serviço.
+Este projeto tem como objetivo realizar uma **análise preditiva de Churn** (cancelamento de serviço) de clientes de uma empresa de telecomunicações. Através da aplicação de algoritmos de Machine Learning, buscamos identificar padrões e prever quais clientes têm maior probabilidade de cancelar o serviço.
 
 O processo seguiu as seguintes etapas:
 1. **Análise Exploratória de Dados (EDA)**: Entendimento dos dados, tratamento de variáveis e visualizações.
@@ -54,7 +54,11 @@ Todos os testes foram realizados com sucesso, e os modelos foram avaliados com b
 - **Comparativo Gráfico de Modelos:**
 
 <div align="center">
-  <img src="https://i.imgur.com/kLzD2eI.png" alt="Comparativo de Modelos"/>
+  <img src="https://i.imgur.com/6QJ4c5X.png" alt="Comparativo de Acurácia dos Modelos"/>
+</div>
+
+<div align="center">
+  <img src="https://i.imgur.com/8kG8a6E.png" alt="Comparativo de Erro dos Modelos"/>
 </div>
 
 ---
