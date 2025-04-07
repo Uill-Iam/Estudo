@@ -59,7 +59,7 @@ Todos os testes foram realizados com sucesso, e os modelos foram avaliados com b
 ---
 
 ## Acesso ao Projeto
-Você pode acessar o repositório do projeto no GitHub [aqui]([https://github.com/Uill-Iam/Estudo/blob/873ffc0ca56ef38331d8f738673fdc5e65841f04/Python/Data%20Science/Churn_telecon/previsao_churn.ipynb])
+Você pode acessar o repositório do projeto no GitHub [clicando aqui](https://github.com/Uill-Iam/Estudo/blob/873ffc0ca56ef38331d8f738673fdc5e65841f04/Python/Data%20Science/Churn_telecon/previsao_churn.ipynb).
 
 ---
 
