@@ -53,13 +53,9 @@ Todos os testes foram realizados com sucesso, e os modelos foram avaliados com b
   - Análise dos resíduos (erros reais)
 - **Comparativo Gráfico de Modelos:**
 
-<div align="center">
-  <img src="https://i.imgur.com/6QJ4c5X.png" alt="Comparativo de Acurácia dos Modelos"/>
-</div>
+![erro_modelos](https://github.com/user-attachments/assets/71a37351-ae87-45d5-ad38-2c0b4d8d04b3)
 
-<div align="center">
-  <img src="https://i.imgur.com/8kG8a6E.png" alt="Comparativo de Erro dos Modelos"/>
-</div>
+![acuracia_modelos](https://github.com/user-attachments/assets/616a69ae-a2fa-415f-8795-ebb126c053d7)
 
 ---
 
