@@ -1,0 +1,79 @@
+# Prevendo Churn com Machine Learning 🤖📉
+
+<div align="center">
+  <img src="https://imgur.com/0Z4mFQD.png" alt="Churn Prediction ML"/>
+</div>
+
+## Badges
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)  
+![Python](https://img.shields.io/badge/Python-3.10-blue)  
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-lightgrey)  
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualização-blue)  
+![GitHub last commit](https://img.shields.io/github/last-commit/Uill-Iam/Churn_telecon)
+
+---
+
+## Índice
+1. [Descrição do Projeto](#descrição-do-projeto)
+2. [Status do Projeto](#status-do-projeto)
+3. [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+4. [Acesso ao Projeto](#acesso-ao-projeto)
+5. [Tecnologias utilizadas](#tecnologias-utilizadas)
+6. [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
+
+---
+
+## Descrição do Projeto
+Este projeto tem como objetivo realizar uma **análise preditiva de Churn** (cancelamento de serviço) de clientes de uma empresa de telecomunicações. Através da aplicação de algoritmos de Machine Learning, buscamos identificar padrões e prever quais clientes têm maior probabilidade de cancelarem o serviço.
+
+O processo seguiu as seguintes etapas:
+1. **Análise Exploratória de Dados (EDA)**: Entendimento dos dados, tratamento de variáveis e visualizações.
+2. **Criação de Variáveis Dummies**: Transformação de variáveis categóricas para uso em modelos.
+3. **Modelagem com Árvore de Decisão e Random Forest**: Avaliação e comparação dos modelos com métricas como acurácia, recall, especificidade e resíduos.
+4. **Visualizações Comparativas**: Gráficos de barras comparando desempenho e matriz de correlação entre variáveis.
+5. **Predições no Dataset Original**: Inclusão de colunas com previsões e resíduos para cada modelo.
+
+---
+
+## Status do Projeto
+✅ **Finalizado**
+
+Todos os testes foram realizados com sucesso, e os modelos foram avaliados com base nas métricas e resíduos.
+
+---
+
+## Funcionalidades e Demonstração da Aplicação
+- **Análise Exploratória** com gráficos de dispersão, histogramas e matriz de correlação.
+- **Modelos Treinados:**
+  - Árvore de Decisão 🌳
+  - Random Forest 🌲
+- **Avaliação com Métricas:**
+  - Acurácia, Recall, Especificidade
+  - Análise dos resíduos (erros reais)
+- **Comparativo Gráfico de Modelos:**
+
+<div align="center">
+  <img src="https://i.imgur.com/kLzD2eI.png" alt="Comparativo de Modelos"/>
+</div>
+
+---
+
+## Acesso ao Projeto
+Você pode acessar o repositório do projeto no GitHub [aqui](https://github.com/Uill-Iam/Churn_telecon)
+
+---
+
+## Tecnologias utilizadas
+- **Python 3.10**
+- **Pandas** – Manipulação de dados
+- **Matplotlib / Seaborn** – Visualização de dados
+- **Scikit-learn** – Algoritmos de Machine Learning
+- **Jupyter Notebook** – Ambiente de desenvolvimento
+
+---
+
+## Pessoas Desenvolvedoras do Projeto
+- [Uiliiam Santos](https://github.com/Uill-Iam) - Desenvolvedor
+
+---
