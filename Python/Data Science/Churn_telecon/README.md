@@ -1,8 +1,7 @@
 # Prevendo Churn com Machine Learning 🤖📉
+![ChatGPT Image 7 de abr  de 2025, 14_08_48](https://github.com/user-attachments/assets/f46dbcba-b94f-4dcc-9311-7de00c47f7aa)
 
-<div align="center">
-  <img src="https://i.imgur.com/0Z4mFQD.png" alt="Churn Prediction ML"/>
-</div>
+
 
 ## Badges
 ![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
